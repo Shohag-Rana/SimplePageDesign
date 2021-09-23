@@ -1,0 +1,118 @@
+.col-1{width: 8.33%}
+.col-2{width: 16.66%}
+.col-3{width: 25%;}
+.col-4{width: 33.33%}
+.col-5{width: 41.66%}
+.col-6{width: 50%}
+.col-7{width: 58.33%}
+.col-8{width: 66.66%}
+.col-9{width: 75%}
+.col-10{width: 83.33%}
+.col-11{width: 91.66%}
+.col-12{width: 100%}
+ 
+.row{
+	content: '';
+	display: block;
+	clear: both;
+}
+.layout{
+	float: left;
+}
+body{
+	background-color: #cccccc;
+	margin: 0;
+	padding: 0;
+}
+.header{
+	background-color: black;
+	padding: 5px;
+}
+
+.header h1{
+	font-weight: bold;
+	margin-left: 30px;
+	margin-top: 0;
+	color: white;
+}
+.header span{
+	font-size: 50px;
+	color: #f58220;
+}
+.menu{
+	background-color:  #666666;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	display: inline-block;
+	border-right: 1px solid black;
+}
+ul li a{
+	display: block;
+	padding: 20px 10px;
+	text-decoration: none;
+	color: white;
+}
+ul li a:hover {
+	background-color: red;
+	color: black;
+	border-right: none;
+
+}
+.content{
+	padding-left: 45px;
+	padding-right: 35px;
+}
+.content1{
+	padding: 40px 5px;
+	height: 200px;
+	border-bottom: 1px solid silver;
+}
+.d1{
+	height: 200px;
+	width: 90%;
+	background-color:  #97a19a;
+}
+.d2{
+	padding: 0px 5px;
+	text-align: justify;
+}
+.content1 h3{
+	margin-top: 0px;
+}
+.content1 .text1{
+	padding-bottom: 30px;
+}
+.more{
+	color:  #f58220;
+}
+.b1{
+	margin-bottom: 200px;
+}
+.sidebar{
+	background-color:  #e5e5e5;
+	padding: 40px 15px;
+	height: 961px;
+}
+.sidebar h3{
+	margin-top: 0px;
+}
+.sidebar a{
+	text-decoration: none;
+	color: #f58220;
+
+}
+.footer{
+	text-align: center;
+	padding: 20px;
+	background-color: black;
+	color: white;
+}
+.sidebar p{
+	font-family: 'Bonheur Royale', cursive;
+	font-size: 25px;
+}
